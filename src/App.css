@@ -1,38 +1,344 @@
-.App {
+body{
+  margin: 0;
+  background-image:
+  radial-gradient(at 56% 9%, hsla(301,64%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 31%, hsla(318,74%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 49%, hsla(66,79%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 79%, hsla(226,77%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 53% 89%, hsla(300,78%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 63%, hsla(229,87%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 39%, hsla(17,86%,61%,1) 0px, transparent 50%); ;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 350px;
+  height: 730px;
+  border: 15px,solid #465365;
+}
+.h1{
+  position: fixed;
+  display: flex;
+  justify-content: top;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.BTN {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 12vw;
+}
+.firstp{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 75px;
+  margin-top: 35px;
+  margin-left: 6vw;
+}
+.App{
+  height: 100vh;
+  background: fixed;
+  background-image:
+  radial-gradient(at 56% 9%, hsla(301,64%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 31%, hsla(318,74%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 49%, hsla(66,79%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 79%, hsla(226,77%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 53% 89%, hsla(300,78%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 63%, hsla(229,87%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 39%, hsla(17,86%,61%,1) 0px, transparent 50%);
+}
+.App1{
+  height: 100vh;
+  background:linear-gradient(to right, #E9F8FF, #90B2D8, #C1E3FF);
+}
+.App2{
+  background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 9%, rgba(0,212,255,1) 18%, rgba(255,255,255,1) 25%);
+height: 100vh;
+margin:0;
+}
+.App3{
+  background: rgb(255,255,255);
+  background: white;
+  height: 100vh;
+  margin:0;
+}
+.App4{
+  height: 100vh;
+  background: fixed;
+  background-image:
+  radial-gradient(at 56% 9%, hsla(301,64%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 31%, hsla(318,74%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 49%, hsla(66,79%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 79%, hsla(226,77%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 53% 89%, hsla(300,78%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 63%, hsla(229,87%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 39%, hsla(17,86%,61%,1) 0px, transparent 50%);
+}
+.App5{
+  height: 100vh;
+  background: fixed;
+  background-image:
+  radial-gradient(at 56% 9%, hsla(301,64%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 31%, hsla(318,74%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 49%, hsla(66,79%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 79%, hsla(226,77%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 53% 89%, hsla(300,78%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 63%, hsla(229,87%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 39%, hsla(17,86%,61%,1) 0px, transparent 50%);
+}
+.App6{
+  height: 100vh;
+  background: fixed;
+  background-image:
+  radial-gradient(at 56% 9%, hsla(301,64%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 31%, hsla(318,74%,61%,1) 0px, transparent 50%),
+  radial-gradient(at 34% 49%, hsla(66,79%,75%,1) 0px, transparent 50%),
+  radial-gradient(at 62% 79%, hsla(226,77%,76%,1) 0px, transparent 50%),
+  radial-gradient(at 53% 89%, hsla(300,78%,65%,1) 0px, transparent 50%),
+  radial-gradient(at 74% 63%, hsla(229,87%,64%,1) 0px, transparent 50%),
+  radial-gradient(at 15% 39%, hsla(17,86%,61%,1) 0px, transparent 50%);
+}
+
+.Myex{
+  margin-top:20px;
+  margin-left:8vw ;
+  font-size:55px;
+}
+
+
+  
+
+.Im1{
+  position: relative;
+  top:2rem;
+  border-radius: 27px;
+  border: 9px solid black;
+  padding: 0.1px;
+  width: 141px;
+  height: 310px;
+  margin-left: 42vw;
+  margin-top: -900px;
+  width: 250px;
+  height: 500px;
+  
+}
+.Problem{
+  font-size: 70px;
+  color: black;
+}
+.Page2p{
+  font-size: 70px;
+  color: white;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.Page2p1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  margin-left: 45vw;
+}
+.p1page3{
+  font-size: 40px;
+  color: black;
+  margin-left: 25 0px;
+  margin-top: 50px;
+}
+.spanbold{
+  font-weight: bold;
+}
+.p2page3{
+  font-size: 25px;
+  color: black;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.redpic{
+  margin-left: 505px;
+
+}
+.Im3{
+  margin-left: 45px;
+ 
+}
+.Im4{
+  position: relative;
+  margin-left: 215px;
+
+}
+.Im5{
+  top: 4rem;
+  position: relative;
+  margin-left: 1155px;
+  
+}
+.page4img{
+  border-radius: 27px;
+  border: 9px solid black;
+  padding: 0.1px;
+  width: 141px;
+  height: 310px;
+  margin-left: 12vw;
+  margin-top: 100px;
+  width: 250px;
+  height: 500px;
+}
+.support{
+  font-weight: bold;
+}
+.pag4text{
+  font-size: 50px;
+  margin-left: 40%;
+  margin-top: -65vh;
+}
+.l1p4{
+  font-size: 35px;
+}
+.l2p4{
+font-size: 35px;
+}
+
+.FirstpPage5{
+  font-size: 85px;
+  font-weight: bold;
+  margin-left: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20vh;
+}
+.SecondpPage5{
+  font-size: 25px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+.Bennet{
+  color:white;
+}
+.Sidep0Page5{
+  font-size: 30px;
+  margin-left: 800px;
+  margin-top:-200px ;
+}
+.Sidep1Page5{
+  font-size: 30px;
+  margin-left: 800px;
+  margin-top:-21px ;
+}
+.Jiara{
+  color:white;
+}
+.Sidep2Page5{
+  font-size: 30px;
+  margin-left: 800px;
+  margin-top:21px ;
+}
+.Chun{
+  color:white;
+}
+.whiteline0{
+  border: 0.5px solid black;
+  width:600px;
+  margin-left: 800px;
+  margin-top:-210px ;
+  position:absolute;
+}
+.whiteline1{
+  border: 0.5px solid black;
+  width:600px;
+  margin-left: 800px;
+  margin-top:-25px ;
+  position:absolute;
+}
+.whiteline2{
+  border: 0.5px solid black;
+  width:600px;
+  margin-left: 800px;
+  margin-top:-25px ;
+  position:absolute;
+}
+.whiteline3{
+  border: 0.5px solid black;
+  width:600px;
+  margin-left: 800px;
+  margin-top:-25px ;
+  position:absolute;
+}
+.Tableee{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+td, th {
+  width: 10rem;
+  height: 8rem;
+  border: 3px solid #ccc;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th {
+  background: lightblue;
+  border-color: white;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  padding: 0rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.no{
+  background: transparent;
 }
-
-.App-link {
-  color: #61dafb;
+.no1{
+  background: transparent;
 }
+.no2{
+  background: transparent;
+}
+.no-1{
+  background: transparent;
+  border-color: transparent;
+  border-right-color: white;
+  border-bottom: white;
+}
+.tik{
+  font-size: 55px;
+  color: blue;
+}
+.lets{
+  font-size: 50px;
+  margin-left: 175px;
+  margin-top: 150px;
+}
+.MN{
+  font-size: 30px;
+  margin-left: 975px;
+  margin-top: -150px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.Bnum{
+  font-weight: bold;
+  font-size: 25px;
 }
